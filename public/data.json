@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "course_img": "https://i.ibb.co/JzQ16Yv/1904-i305-019-programmer.jpg",
+        "course_name": "Introduction to Programming",
+        "course_details": "Learn the fundamentals of programming with this beginner-friendly course.",
+        "price": 49.99,
+        "credit": 3
+    },
+    {
+        "id": 2,
+        "course_img": "https://i.ibb.co/FxR5DwZ/webdeveloper-1.jpg",
+        "course_name": "Web Development Bootcamp",
+        "course_details": "Master web development with hands-on projects and real-world skills.",
+        "price": 129.99,
+        "credit": 6
+    },
+    {
+        "id": 3,
+        "course_img": "https://i.ibb.co/f429pyn/myriam-jessier-eve-I7-MOc-Smw-unsplash.jpg",
+        "course_name": "Data Science Essentials",
+        "course_details": "Explore the world of data science and machine learning in this comprehensive course.",
+        "price": 89.99,
+        "credit": 5
+    },
+    {
+        "id": 4,
+        "course_img": "https://i.ibb.co/cb1t4qM/emily-bernal-v9v-II5g-V8-Lw-unsplash.jpg",
+        "course_name": "Graphic Design Fundamentals",
+        "course_details": "Unlock your creativity with this graphic design course for beginners.",
+        "price": 59.99,
+        "credit": 4
+    },
+    {
+        "id": 5,
+        "course_img": "https://i.ibb.co/rs5mHBz/jason-goodman-Oalh2-Moj-Uuk-unsplash.jpg",
+        "course_name": "Business Strategy and Management",
+        "course_details": "Learn the principles of effective business strategy and management.",
+        "price": 79.99,
+        "credit": 5
+    },
+    {
+        "id": 6,
+        "course_img": "https://i.ibb.co/pwy5d4K/diggity-marketing-SB0-WARG16-HI-unsplash.jpg",
+        "course_name": "Digital Marketing Mastery",
+        "course_details": "Become a digital marketing expert with this comprehensive training.",
+        "price": 69.99,
+        "credit": 4
+    },
+    {
+        "id": 7,
+        "course_img": "https://i.ibb.co/vw8KFj2/alexander-dummer-a-S4-Duj2j7r4-unsplash.jpg",
+        "course_name": "Photography Fundamentals",
+        "course_details": "Discover the art of photography and capture stunning moments.",
+        "price": 54.99,
+        "credit": 3
+    },
+    {
+        "id": 8,
+        "course_img": "https://i.ibb.co/B3Z3jPB/jefferson-santos-9-So-Cny-Qmkz-I-unsplash.jpg",
+        "course_name": "Cyber Security Fundamentals",
+        "course_details": "Protect yourself and your organization from cyber threats with this course.",
+        "price": 79.99,
+        "credit": 5
+    },
+    {
+        "id": 9,
+        "course_img": "https://i.ibb.co/F4g8DxB/jon-tyson-8-MMt-YM-3x-MY-unsplash.jpg",
+        "course_name": "Spanish Language for Beginners",
+        "course_details": "Start your journey to learn Spanish with this beginner's course.",
+        "price": 39.99,
+        "credit": 2
+    }
+]
