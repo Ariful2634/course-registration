@@ -1,8 +1,16 @@
-# React + Vite
+# Course Registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Add at least 3 Project features
 
-Currently, two official plugins are available:
+* Can see course name in the cart.
+* Can see total credit hour.
+* Can see the description of the course.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Discuss how you managed the state in your assignment project.
+
+* In my app's functionality, I declare three states. I then pass these states as props to the Credit component.
+* Next, I receive the buttonHandler function in the Course component.
+* Following that, I send another set of props from the Course component to the Courses component.
+* Finally, I display the data in both the Courses component and the Credit component.
+
