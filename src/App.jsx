@@ -46,7 +46,7 @@ function App() {
     <>
 
       <Header></Header>
-      <div className='md:flex justify-between mt-10 #F3F3F3 gap-5'>
+      <div className='md:flex justify-between mt-10 #F3F3F3 gap-5 '>
         <Course buttonHandler={buttonHandler}></Course>
         <Credit course={course} creditNumber={creditNumber} sendCredit={sendCredit} ></Credit>
       </div>
