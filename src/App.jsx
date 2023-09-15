@@ -27,19 +27,14 @@ function App() {
         count=count+num.credit;
       })
       const creditHour=20-count;
-      if(count>20){
+      if(count>20 && creditHour<0){
         return Swal.fire({
           icon: 'error',
-          text: "You can't take more than 20 credit",
+          text: "You can't take credit more than 20 hour and remaining credit hour can't go below 0",
         })
       }
       setCreditNumber(count)
-      if(creditHour<0){
-        return Swal.fire({
-          icon: 'error',
-          text: "Credit hour can't go below 0",
-        })
-      }
+    
       setSendCredit(creditHour)
       const sen = [...course, send]
       setCourse(sen)

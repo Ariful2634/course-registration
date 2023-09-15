@@ -1,6 +1,6 @@
-// import { FaBookOpen } from 'react-icons/fa';
+import { FaBookOpen } from 'react-icons/fa';
 import PropTypes from 'prop-types'
-// import Credit from '../Credit/Credit';
+
 
 
 
@@ -17,7 +17,10 @@ const Courses = ({loadData,buttonHandler}) => {
             </div>
             <div className="flex justify-between items-center mb-6">
                 <p>$ Price: {price} </p>
+                <div className='flex items-center gap-2'>
+                    <FaBookOpen></FaBookOpen>
                 <p> Credit: {credit} hr</p>
+                </div>
             </div>
             <button onClick={()=>buttonHandler(loadData)}  className="bg-[#2F80ED] px-28 rounded-lg py-2 text-white font-semibold">Select</button>
         </div>
