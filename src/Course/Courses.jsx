@@ -11,9 +11,9 @@ const Courses = ({loadData,buttonHandler}) => {
            <div className="flex justify-center">
            <img className="w-auto h-40 rounded-lg" src={course_img} alt="" />
            </div>
-            <h1 className="font-semibold text-l">{course_name}</h1>
+            <h1 className="font-semibold text-l text-start">{course_name}</h1>
             <div className="w-[270px]">
-            <p className=" font-[400]">{course_details}</p>
+            <p className=" font-[400] text-start">{course_details}</p>
             </div>
             <div className="flex justify-between items-center mb-6">
                 <p>$ Price: {price} </p>

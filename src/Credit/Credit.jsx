@@ -2,13 +2,13 @@
 
 
 
-const Credit = ({course}) => {
+const Credit = ({course,creditNumber,sendCredit}) => {
     // console.log(course)
 
     
     return (
         <div className="shadow-2xl p-5 bg-[#FFF] ">
-            <h1 className="text-[#2F80ED] font-semibold  mb-2">Credit Hour Remaining</h1>
+            <h1 className="text-[#2F80ED] text-start font-semibold  mb-2">Credit Hour Remaining {sendCredit} hr</h1>
             <hr />
             <h1 className="text-start mt-2 font-semibold mb-2 text-[#1C1B1B]">Course Name <br />
                
@@ -19,7 +19,7 @@ const Credit = ({course}) => {
                 }
             </div>
             <hr />
-            <h1 className="mt-2 font-semibold text-start">Total Credit Hour: </h1>
+            <h1 className="mt-2 font-semibold text-start">Total Credit Hour: {creditNumber} </h1>
 
         </div>
     );

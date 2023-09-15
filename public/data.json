@@ -11,7 +11,7 @@
         "id": 2,
         "course_img": "https://i.ibb.co/gdGx4ns/Rectangle-2-3.png",
         "course_name": "Introduction to Algorithms",
-        "course_details": "Master web development with hands-on projects and real-world skills.",
+        "course_details": "This course provides an introduction to mathematical modeling of computational problems.",
         "price": 129.99,
         "credit": 6
     },
