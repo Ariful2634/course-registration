@@ -1,4 +1,4 @@
-import { FaBookOpen } from 'react-icons/fa';
+import {  FaBookOpen, FaDollarSign, } from 'react-icons/fa';
 import PropTypes from 'prop-types'
 
 
@@ -11,17 +11,21 @@ const Courses = ({loadData,buttonHandler}) => {
            <div className="flex justify-center">
            <img className="w-auto h-40 rounded-lg" src={course_img} alt="" />
            </div>
-            <h1 className="font-semibold text-l text-start">{course_name}</h1>
-            <div className="w-[270px]">
+            <h1 className="font-semibold text-l text-start ">{course_name}</h1>
+            <div className="h-[75px] w-auto">
             <p className=" font-[400] text-start">{course_details}</p>
             </div>
             <div className="flex justify-between items-center mb-6">
-                <p>$ Price: {price} </p>
-                <div className='flex items-center gap-2'>
-                    <FaBookOpen></FaBookOpen>
+                <div className='flex items-center gap-2 mb-3'>
+                    <FaDollarSign></FaDollarSign>
+                <p> Price: {price} </p>
+                </div>
+                <div className='flex items-center gap-2 mb-3'>
+                    <FaBookOpen ></FaBookOpen>
+                    
                 <p> Credit: {credit} hr</p>
                 </div>
-            </div>
+            </div >
             <button onClick={()=>buttonHandler(loadData)}  className="bg-[#2F80ED] px-28 rounded-lg py-2 text-white font-semibold">Select</button>
         </div>
     );

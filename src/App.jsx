@@ -9,7 +9,7 @@ import Swal from 'sweetalert2'
 function App() {
   const [course, setCourse] = useState([]);
   const [creditNumber,setCreditNumber]=useState(0);
-  const [sendCredit,setSendCredit]=useState(0);
+  const [sendCredit,setSendCredit]=useState(20);
   
 
   const buttonHandler = send => {
@@ -46,7 +46,7 @@ function App() {
     <>
 
       <Header></Header>
-      <div className='md:flex justify-around mt-10 #F3F3F3'>
+      <div className='md:flex justify-between mt-10 #F3F3F3 gap-5'>
         <Course buttonHandler={buttonHandler}></Course>
         <Credit course={course} creditNumber={creditNumber} sendCredit={sendCredit} ></Credit>
       </div>

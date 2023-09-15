@@ -19,7 +19,7 @@
         "id": 3,
         "course_img": "https://i.ibb.co/db4vq5D/Rectangle-2-4.png",
         "course_name": "Introduction to C++ for DSA",
-        "course_details": "Explore the world of data science and machine learning in this comprehensive course.",
+        "course_details": "This course provides fundamentals of the C++, data structure and algori- thmic problems.",
         "price": 89.99,
         "credit": 5
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "course_img": "https://i.ibb.co/FDyDjDn/Rectangle-3.png",
         "course_name": "Basic Data Structures",
-        "course_details": "Unlock your creativity with this graphic design course for beginners.",
+        "course_details": "This course provides the basic fundamentals of data structures.",
         "price": 59.99,
         "credit": 4
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "course_img": "https://i.ibb.co/gWgMq9g/Rectangle-2.png",
         "course_name": "Introduction to OOP Python",
-        "course_details": "Learn the principles of effective business strategy and management.",
+        "course_details": "Learn to create and manipulate objects, classes using python oop.",
         "price": 79.99,
         "credit": 5
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "course_img": "https://i.ibb.co/jgFjSd1/Rectangle-2-5.png",
         "course_name": "Software Engineering",
-        "course_details": "Become a digital marketing expert with this comprehensive training.",
+        "course_details": "Learn designing, developing, and maintaining software systems by this course.",
         "price": 69.99,
         "credit": 4
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "course_img": "https://i.ibb.co/nPRTCPG/Rectangle-3-1.png",
         "course_name": "AWS, Cloud Computing",
-        "course_details": "Discover the art of photography and capture stunning moments.",
+        "course_details": "This course offers a wide range of scalable and on-demand cloud services.",
         "price": 54.99,
         "credit": 3
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "course_img": "https://i.ibb.co/3z3SjGR/Rectangle-2-1.png",
         "course_name": "Database (MySQL)",
-        "course_details": "Protect yourself and your organization from cyber threats with this course.",
+        "course_details": "MySQL is widely used for efficiently storing and retrieving structured data in diverse applications.",
         "price": 79.99,
         "credit": 5
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "course_img": "https://i.ibb.co/3zWWyJ4/Rectangle-2-6.png",
         "course_name": "Problem-Solving Part",
-        "course_details": "Start your journey to learn Spanish with this beginner's course.",
+        "course_details": "This course offers the ability to tackle complex issues, develop logical and implement practical solutions.",
         "price": 39.99,
         "credit": 2
     }

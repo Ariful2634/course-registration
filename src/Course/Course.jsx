@@ -13,7 +13,7 @@ const Course = ({buttonHandler}) => {
 
     return (
         <div>
-            <div className="md:grid md:grid-cols-3 gap-5 ">
+            <div className="md:grid md:grid-cols-3 gap-8 md:max-w-4xl">
                 {
                     loadData.map(loadData=><Courses key={loadData.id} loadData={loadData} buttonHandler={buttonHandler} ></Courses>)
                 }
