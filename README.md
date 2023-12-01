@@ -14,3 +14,7 @@
 * Following that, I send another set of props from the Course component to the Courses component.
 * Finally, I display the data in both the Courses component and the Credit component.
 
+
+## Project Live Link
+https://lighthearted-beignet-c9c7d1.netlify.app/
+
